@@ -1,17 +1,20 @@
 TargetSystemsTasks
 Desenvolvendo a Prática na Target
+----------------------------------
 
-Questão 1 -
+  Questão 1 -
 Este código inicializa três variáveis: INDICE, SOMA e K. O objetivo do loop é somar cada número inteiro de 1 até INDICE (que é 13 neste caso) e armazenar o resultado na variável SOMA.
 
 O loop while testa se K é menor que INDICE. Enquanto K for menor, o loop executa as seguintes instruções:
 
 incrementa K em 1 (usando o operador ++) adiciona o valor de K à variável SOMA Após a execução do loop, o valor de SOMA é impresso na tela usando a função System.out.println(). O resultado é a soma de todos os números inteiros de 1 até 13, que é 91.
 
-Questão 2 -
+
+  Questão 2 -
 Neste programa, o usuário é solicitado a inserir o limite da sequência de Fibonacci que deseja gerar e o programa gera a sequência até esse limite. Depois disso, o usuário é solicitado a inserir um número para verificar se ele pertence à sequência de Fibonacci, e o programa verifica se o número faz parte da sequência. Por fim, o programa exibe uma mensagem para indicar se o número pertence ou não à sequência.
 
-Questão 3 -
+
+  Questão 3 -
 a) A lógica é que cada elemento é o número ímpar seguinte ao anterior. Então, o próximo número seria 9.
 
 b) A lógica é que cada elemento é o dobro do número anterior. Então, o próximo número seria 128.
@@ -24,7 +27,8 @@ e) A lógica é que cada elemento é a soma dos dois elementos anteriores. Entã
 
 f) A lógica é que cada elemento é um número natural que começa com a letra "D" na leitura da escrita deles por extenso. o próximo será 200.
 
-Questão 4 - 
+
+  Questão 4 - 
 Primeiro, definimos as variáveis necessárias: distância entre as cidades em km, velocidade constante do carro em km/h, velocidade constante do caminhão em km/h e tempo em minutos que o caminhão leva a mais para passar em cada pedágio.
 
 int distancia = 100; // distância entre as cidades em km int velocidadeCarro = 110; // velocidade constante do carro em km/h int velocidadeCaminhao = 80; // velocidade constante do caminhão em km/h int tempoPedagio = 5; // tempo em minutos que o caminhão leva a mais para passar em cada pedágio
@@ -55,5 +59,6 @@ double distanciaCaminhaoRibeirao = distanciaTotalCaminhao * (velocidadeCaminhao 
 
 Finalmente, determinamos qual veículo está mais próximo de Ribeirão Preto comparando as distâncias calculadas anteriormente. Se a distância do caminhão for menor, ele está mais próximo. Se a distância do carro for menor, ele está mais próximo. Se as distâncias forem iguais, ambos os veículos estão a mesma distância de Ribeirão Preto, que é justamente a resposta.
 
-Questão 5 -
+
+  Questão 5 -
 Nesse programa, a string é lida a partir da entrada do usuário utilizando a classe Scanner. Em seguida, a string é convertida para um array de caracteres utilizando o método toCharArray(). Os caracteres desse array são então invertidos utilizando um loop for, e o array é convertido de volta para uma string utilizando o construtor da classe String. Por fim, a string invertida é impressa na tela.
