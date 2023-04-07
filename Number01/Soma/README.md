@@ -1,18 +1,19 @@
-## Getting Started
+1) Observe o trecho de código abaixo:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+int INDICE = 13, SOMA = 0, K = 0;
 
-## Folder Structure
+enquanto K < INDICE faça
 
-The workspace contains two folders by default, where:
+{
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+K = K + 1;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+SOMA = SOMA + K;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+}
 
-## Dependency Management
+imprimir(SOMA);
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+Ao final do processamento, qual será o valor da variável SOMA?
