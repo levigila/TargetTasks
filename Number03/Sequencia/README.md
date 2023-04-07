@@ -1,18 +1,14 @@
-## Getting Started
+3) Descubra a lógica e complete o próximo elemento:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+a) 1, 3, 5, 7, ___
 
-The workspace contains two folders by default, where:
+b) 2, 4, 8, 16, 32, 64, ____
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+c) 0, 1, 4, 9, 16, 25, 36, ____
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+d) 4, 16, 36, 64, ____
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+e) 1, 1, 2, 3, 5, 8, ____
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+f) 2,10, 12, 16, 17, 18, 19, ____
